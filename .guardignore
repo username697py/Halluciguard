@@ -1,0 +1,8 @@
+# HalluciGuard Konfigürasyon ve Muafiyet Dosyası (.guardignore)
+# Her satıra bir paket adı yazın. '#' ile başlayan satırlar yorumdur.
+# Şirket içi özel Artifactory/PyPI paketlerinizi buraya ekleyebilirsiniz:
+
+# Örnek özel paketler:
+# internal_auth_sdk
+# corp_telemetry_client
+# my_private_ml_utils

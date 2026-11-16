@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and runtime artifacts
+.halluciguard_cache.json
+*.cache
+*.tmp
+
+# Security reports and logs
+*.html
+*.log
+
+# Environments and dependencies
+.venv/
+venv/
+ENV/
+env/
+
+# Editor and IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test & coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/

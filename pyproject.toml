@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "halluciguard"
+version = "6.2.0"
+description = "A zero-dependency Python security and SAST scanner"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [
+    { name = "HalluciGuard Contributors" }
+]
+keywords = [
+    "security",
+    "sast",
+    "supply-chain",
+    "slopsquatting",
+    "typosquatting",
+    "vulnerability-scanner",
+    "static-analysis",
+    "zero-dependency",
+    "mcp"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Security",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Software Development :: Testing",
+]
+dependencies = []
+
+[project.scripts]
+halluciguard = "halluciguard:main"
+
+[project.urls]
+Homepage = "https://github.com/halluciguard/halluciguard"
+Repository = "https://github.com/halluciguard/halluciguard"
+Issues = "https://github.com/halluciguard/halluciguard/issues"
+
+[tool.setuptools]
+py-modules = ["halluciguard"]
